@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data files (too large for GitHub — download separately)
+*.csv
+*.tsv
+
+# Model artifacts
+*.pt
+*.pth
+*.h5
+*.pkl
+*.joblib
+
+# Logs and outputs
+news_project_outputs/
+wandb/
+runs/
+*.log
